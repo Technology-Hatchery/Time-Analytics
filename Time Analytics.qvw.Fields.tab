@@ -1,0 +1,62 @@
+FieldName	DistinctOnly	Cardinal	TotalCount	PossibleCount	HasInfo	IsLocked	AlwaysOneSelected	AndMode	Tags
+ss:ID	0	18	18	-1	-1	0	0	0	$ascii, $text
+ss:Name	0	4	4	-1	-1	0	0	0	$ascii, $text, $keypart
+Interior/ss:Color	0	9	18	-1	-1	0	0	0	$ascii, $text
+ss:Pattern	0	2	18	-1	-1	0	0	0	$ascii, $text
+ss:FontName	0	2	18	-1	-1	0	0	0	$ascii, $text
+x:Family	0	2	18	-1	-1	0	0	0	$ascii, $text
+ss:Size	0	2	18	-1	-1	0	0	0	$numeric, $integer
+Font/ss:Color	0	2	18	-1	-1	0	0	0	$ascii, $text
+ss:Bold	0	2	18	-1	-1	0	0	0	
+ss:Vertical	0	2	18	-1	-1	0	0	0	$ascii, $text
+%Key_Workbook_539AC23B8FB13FD7	1	1	0	-1	-1	0	0	0	$key, $numeric, $integer
+ss:StyleID	1	18	0	-1	-1	0	0	0	$ascii, $text, $keypart
+ss:AutoFitWidth	0	2	22	-1	-1	0	0	0	$numeric, $integer
+ss:Width	0	19	22	-1	-1	0	0	0	$numeric
+ss:Span	0	2	22	-1	-1	0	0	0	
+ss:Index	1	5	0	-1	-1	0	0	0	$keypart
+%Key_Worksheet_5D16F62D78768350	1	2	0	-1	-1	0	0	0	$key, $numeric, $integer
+Data	0	70	171	-1	-1	0	0	0	
+ss:Type	0	3	171	-1	-1	0	0	0	$ascii, $text
+%Key_Row_F432AFD98B1DA64D	1	8	0	-1	-1	0	0	0	$numeric, $integer, $keypart
+WorksheetOptions/xmlns	0	1	2	-1	-1	0	0	0	$ascii, $text
+ProtectObjects	0	1	2	-1	-1	0	0	0	$ascii, $text
+ProtectScenarios	0	1	2	-1	-1	0	0	0	$ascii, $text
+x:Bottom	0	2	2	-1	-1	0	0	0	
+x:Left	0	2	2	-1	-1	0	0	0	
+x:Right	0	2	2	-1	-1	0	0	0	
+x:Top	0	2	2	-1	-1	0	0	0	
+Footer/x:Margin	0	2	2	-1	-1	0	0	0	
+Header/x:Margin	0	2	2	-1	-1	0	0	0	
+Number	0	2	2	-1	-1	0	0	0	$numeric, $integer
+ActiveRow	0	2	2	-1	-1	0	0	0	$numeric, $integer
+ActiveCol	0	2	2	-1	-1	0	0	0	$numeric, $integer
+RangeSelection	0	2	2	-1	-1	0	0	0	$ascii, $text
+HorizontalResolution	0	2	2	-1	-1	0	0	0	$numeric, $integer
+VerticalResolution	0	2	2	-1	-1	0	0	0	$numeric, $integer
+ss:ExpandedColumnCount	0	2	2	-1	-1	0	0	0	$numeric, $integer
+ss:ExpandedRowCount	0	2	2	-1	-1	0	0	0	$numeric, $integer
+x:FullColumns	0	1	2	-1	-1	0	0	0	$numeric, $integer
+x:FullRows	0	1	2	-1	-1	0	0	0	$numeric, $integer
+ss:DefaultColumnWidth	0	2	2	-1	-1	0	0	0	$numeric, $integer
+ss:DefaultRowHeight	0	1	2	-1	-1	0	0	0	$numeric
+xmlns	0	1	1	-1	-1	0	0	0	$ascii, $text
+xmlns:o	0	1	1	-1	-1	0	0	0	$ascii, $text
+xmlns:x	0	1	1	-1	-1	0	0	0	$ascii, $text
+xmlns:ss	0	1	1	-1	-1	0	0	0	$ascii, $text
+xmlns:html	0	1	1	-1	-1	0	0	0	$ascii, $text
+ExcelWorkbook/xmlns	0	1	1	-1	-1	0	0	0	$ascii, $text
+WindowHeight	0	1	1	-1	-1	0	0	0	$numeric, $integer
+WindowWidth	0	1	1	-1	-1	0	0	0	$numeric, $integer
+WindowTopX	0	1	1	-1	-1	0	0	0	$numeric, $integer
+WindowTopY	0	1	1	-1	-1	0	0	0	$numeric, $integer
+TabRatio	0	1	1	-1	-1	0	0	0	$numeric, $integer
+ActiveSheet	0	1	1	-1	-1	0	0	0	$numeric, $integer
+ProtectStructure	0	1	1	-1	-1	0	0	0	$ascii, $text
+ProtectWindows	0	1	1	-1	-1	0	0	0	$ascii, $text
+DisplayInkNotes	0	1	1	-1	-1	0	0	0	$ascii, $text
+OfficeDocumentSettings/xmlns	0	1	1	-1	-1	0	0	0	$ascii, $text
+DocumentProperties/xmlns	0	1	1	-1	-1	0	0	0	$ascii, $text
+Created	0	1	1	-1	-1	0	0	0	$ascii, $text
+LastSaved	0	1	1	-1	-1	0	0	0	$ascii, $text
+Version	0	1	1	-1	-1	0	0	0	$numeric, $integer
