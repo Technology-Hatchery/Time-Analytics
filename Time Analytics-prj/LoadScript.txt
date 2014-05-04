@@ -1,0 +1,104 @@
+﻿///$tab Main
+SET ThousandSep=',';
+SET DecimalSep='.';
+SET MoneyThousandSep=',';
+SET MoneyDecimalSep='.';
+SET MoneyFormat='$#,##0.00;($#,##0.00)';
+SET TimeFormat='h:mm:ss TT';
+SET DateFormat='M/D/YYYY';
+SET TimestampFormat='M/D/YYYY h:mm:ss[.fff] TT';
+SET MonthNames='Jan;Feb;Mar;Apr;May;Jun;Jul;Aug;Sep;Oct;Nov;Dec';
+SET DayNames='Mon;Tue;Wed;Thu;Fri;Sat;Sun';
+
+// Start of [Time Analytics.xml] LOAD statements
+Style:
+LOAD [ss:ID],
+    [ss:Name],
+    [Interior/ss:Color],
+    [Interior/ss:Pattern] as [ss:Pattern],
+    [Font/ss:FontName] as [ss:FontName],
+    [Font/x:Family] as [x:Family],
+    [Font/ss:Size] as [ss:Size],
+    [Font/ss:Color],
+    [Font/ss:Bold] as [ss:Bold],
+    [Alignment/ss:Vertical] as [ss:Vertical],
+    %Key_Workbook_539AC23B8FB13FD7    // Key to parent table: Workbook
+FROM [X:\Dropbox\Discovery Dashboards\technical\data\Time Analytics.xml] (XmlSimple, Table is [Workbook/Styles/Style]);
+
+Column:
+LOAD [ss:StyleID],
+    [ss:AutoFitWidth],
+    [ss:Width],
+    [ss:Span],
+    [ss:Index],
+    %Key_Worksheet_5D16F62D78768350    // Key to parent table: Workbook/Worksheet
+FROM [X:\Dropbox\Discovery Dashboards\technical\data\Time Analytics.xml] (XmlSimple, Table is [Workbook/Worksheet/Table/Column]);
+
+Cell:
+LOAD Data,
+    [ss:Index],
+    [ss:StyleID],
+    [Data/ss:Type] as [ss:Type],
+    %Key_Row_F432AFD98B1DA64D    // Key to parent table: Workbook/Worksheet/Table/Row
+FROM [X:\Dropbox\Discovery Dashboards\technical\data\Time Analytics.xml] (XmlSimple, Table is [Workbook/Worksheet/Table/Row/Cell]);
+
+Row:
+LOAD [ss:StyleID],
+    %Key_Worksheet_5D16F62D78768350,    // Key to parent table: Workbook/Worksheet
+    %Key_Row_F432AFD98B1DA64D    // Key for this table: Workbook/Worksheet/Table/Row
+FROM [X:\Dropbox\Discovery Dashboards\technical\data\Time Analytics.xml] (XmlSimple, Table is [Workbook/Worksheet/Table/Row]);
+
+Worksheet:
+LOAD [ss:Name],
+    [WorksheetOptions/xmlns],
+    [WorksheetOptions/ProtectObjects] as ProtectObjects,
+    [WorksheetOptions/ProtectScenarios] as ProtectScenarios,
+    [WorksheetOptions/PageSetup/PageMargins/x:Bottom] as [x:Bottom],
+    [WorksheetOptions/PageSetup/PageMargins/x:Left] as [x:Left],
+    [WorksheetOptions/PageSetup/PageMargins/x:Right] as [x:Right],
+    [WorksheetOptions/PageSetup/PageMargins/x:Top] as [x:Top],
+    [WorksheetOptions/PageSetup/Footer/x:Margin] as [Footer/x:Margin],
+    [WorksheetOptions/PageSetup/Header/x:Margin] as [Header/x:Margin],
+    [WorksheetOptions/Panes/Pane/Number] as Number,
+    [WorksheetOptions/Panes/Pane/ActiveRow] as ActiveRow,
+    [WorksheetOptions/Panes/Pane/ActiveCol] as ActiveCol,
+    [WorksheetOptions/Panes/Pane/RangeSelection] as RangeSelection,
+    [WorksheetOptions/Print/HorizontalResolution] as HorizontalResolution,
+    [WorksheetOptions/Print/VerticalResolution] as VerticalResolution,
+    [Table/ss:ExpandedColumnCount] as [ss:ExpandedColumnCount],
+    [Table/ss:ExpandedRowCount] as [ss:ExpandedRowCount],
+    [Table/x:FullColumns] as [x:FullColumns],
+    [Table/x:FullRows] as [x:FullRows],
+    [Table/ss:DefaultColumnWidth] as [ss:DefaultColumnWidth],
+    [Table/ss:DefaultRowHeight] as [ss:DefaultRowHeight],
+    %Key_Workbook_539AC23B8FB13FD7,    // Key to parent table: Workbook
+    %Key_Worksheet_5D16F62D78768350    // Key for this table: Workbook/Worksheet
+FROM [X:\Dropbox\Discovery Dashboards\technical\data\Time Analytics.xml] (XmlSimple, Table is [Workbook/Worksheet]);
+
+Workbook:
+LOAD xmlns,
+    [xmlns:o],
+    [xmlns:x],
+    [xmlns:ss],
+    [xmlns:html],
+    [ExcelWorkbook/xmlns],
+    [ExcelWorkbook/WindowHeight] as WindowHeight,
+    [ExcelWorkbook/WindowWidth] as WindowWidth,
+    [ExcelWorkbook/WindowTopX] as WindowTopX,
+    [ExcelWorkbook/WindowTopY] as WindowTopY,
+    [ExcelWorkbook/TabRatio] as TabRatio,
+    [ExcelWorkbook/ActiveSheet] as ActiveSheet,
+    [ExcelWorkbook/ProtectStructure] as ProtectStructure,
+    [ExcelWorkbook/ProtectWindows] as ProtectWindows,
+    [ExcelWorkbook/DisplayInkNotes] as DisplayInkNotes,
+    [OfficeDocumentSettings/xmlns],
+    [DocumentProperties/xmlns],
+    [DocumentProperties/Created] as Created,
+    [DocumentProperties/LastSaved] as LastSaved,
+    [DocumentProperties/Version] as Version,
+    %Key_Workbook_539AC23B8FB13FD7    // Key for this table: Workbook
+FROM [X:\Dropbox\Discovery Dashboards\technical\data\Time Analytics.xml] (XmlSimple, Table is [Workbook]);
+// End of [Time Analytics.xml] LOAD statements
+
+
+
