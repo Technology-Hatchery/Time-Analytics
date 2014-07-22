@@ -1,0 +1,751 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ <QvdTableHeader>
+   <QvBuildNo>12235</QvBuildNo>
+   <CreatorDoc>X:\Dropbox\Technology Hatchery Inc\technical\Git\Time-Analytics\Time Analytics1.qvw</CreatorDoc>
+   <CreateUtcTime>2014-05-27 00:13:42</CreateUtcTime>
+   <SourceCreateUtcTime></SourceCreateUtcTime>
+   <SourceFileUtcTime></SourceFileUtcTime>
+   <SourceFileSize>-1</SourceFileSize>
+   <StaleUtcTime></StaleUtcTime>
+   <TableName>FacebookFanPagesConnector_Photos</TableName>
+   <Fields>
+     <QvdFieldHeader>
+       <FieldName>Photos_id</FieldName>
+       <BitOffset>8</BitOffset>
+       <BitWidth>2</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>3</NoOfSymbols>
+       <Offset>0</Offset>
+       <Length>54</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Photos_uploaded_time</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>8</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>TIMESTAMP</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt>M/D/YYYY h:mm:ss[.fff] TT</Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>99</NoOfSymbols>
+       <Offset>54</Offset>
+       <Length>891</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$timestamp</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Photos_created_time</FieldName>
+       <BitOffset>10</BitOffset>
+       <BitWidth>6</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>3</NoOfSymbols>
+       <Offset>945</Offset>
+       <Length>78</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Photos_created_time_qvdatetime</FieldName>
+       <BitOffset>16</BitOffset>
+       <BitWidth>2</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>3</NoOfSymbols>
+       <Offset>1023</Offset>
+       <Length>84</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$timestamp</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Photos_created_time_qvdate</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>1107</Offset>
+       <Length>16</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+         <String>$timestamp</String>
+         <String>$date</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Photos_created_time_qvtime</FieldName>
+       <BitOffset>18</BitOffset>
+       <BitWidth>2</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>3</NoOfSymbols>
+       <Offset>1123</Offset>
+       <Length>69</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Photos_updated_time</FieldName>
+       <BitOffset>20</BitOffset>
+       <BitWidth>2</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>3</NoOfSymbols>
+       <Offset>1192</Offset>
+       <Length>78</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Photos_updated_time_qvdatetime</FieldName>
+       <BitOffset>22</BitOffset>
+       <BitWidth>2</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>3</NoOfSymbols>
+       <Offset>1270</Offset>
+       <Length>84</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$timestamp</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Photos_updated_time_qvdate</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>1354</Offset>
+       <Length>16</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+         <String>$timestamp</String>
+         <String>$date</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Photos_updated_time_qvtime</FieldName>
+       <BitOffset>24</BitOffset>
+       <BitWidth>2</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>3</NoOfSymbols>
+       <Offset>1370</Offset>
+       <Length>69</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Photos_from_name</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>1439</Offset>
+       <Length>22</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Photos_from_category</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>1461</Offset>
+       <Length>11</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Photos_from_id</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>1472</Offset>
+       <Length>18</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Photos_name</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>1490</Offset>
+       <Length>2</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Photos_picture</FieldName>
+       <BitOffset>26</BitOffset>
+       <BitWidth>2</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>3</NoOfSymbols>
+       <Offset>1492</Offset>
+       <Length>341</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Photos_source</FieldName>
+       <BitOffset>28</BitOffset>
+       <BitWidth>2</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>3</NoOfSymbols>
+       <Offset>1833</Offset>
+       <Length>314</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Photos_height</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>2147</Offset>
+       <Length>8</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Photos_width</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>2155</Offset>
+       <Length>9</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Photos_link</FieldName>
+       <BitOffset>30</BitOffset>
+       <BitWidth>2</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>3</NoOfSymbols>
+       <Offset>2164</Offset>
+       <Length>348</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Photos_icon</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>2512</Offset>
+       <Length>66</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Photos_has_comments</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>2578</Offset>
+       <Length>7</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Photos_has_at_least_this_many_comments</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>2585</Offset>
+       <Length>7</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Photos_has_likes</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>2592</Offset>
+       <Length>7</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Photos_has_at_least_this_many_likes</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>2599</Offset>
+       <Length>7</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+   </Fields>
+   <Compression></Compression>
+   <RecordByteSize>4</RecordByteSize>
+   <NoOfRecords>345</NoOfRecords>
+   <Offset>2606</Offset>
+   <Length>1380</Length>
+   <Lineage>
+     <LineageInfo>
+       <Discriminator>STORE - FacebookFanPagesConnector_Events.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>STORE - FacebookFanPagesConnector_FeedItems.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>STORE - FacebookFanPagesConnector_Page.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>STORE - FacebookFanPagesConnector_Person.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>STORE - FacebookFanPagesConnector_Photos.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>STORE - FacebookFanPagesConnector_Posts.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>http://localhost:5555/qvsource/facebookfanpagesconnector/?table=events&amp;appid=&amp;facebookpageorid=discoverydashboards&amp;maxnumberofitems=-1&amp;format=html</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>http://localhost:5555/qvsource/facebookfanpagesconnector/?table=feeditems&amp;appid=&amp;facebookpageorid=discoverydashboards&amp;maxnumberofitems=-1&amp;format=html</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>http://localhost:5555/qvsource/facebookfanpagesconnector/?table=page&amp;appid=&amp;format=html</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>http://localhost:5555/qvsource/facebookfanpagesconnector/?table=person&amp;appid=</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>http://localhost:5555/qvsource/facebookfanpagesconnector/?table=photos&amp;appid=&amp;facebookpageorid=discoverydashboards&amp;maxnumberofitems=-1&amp;format=html</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>http://localhost:5555/qvsource/facebookfanpagesconnector/?table=posts&amp;appid=&amp;facebookpageorid=discoverydashboards&amp;maxnumberofitems=-1&amp;format=html</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>x:\dropbox\discovery dashboards\technical\apis\square\output.xml</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>x:\dropbox\discovery dashboards\technical\data\time-analytics (transform)1.xml</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>x:\dropbox\technology hatchery inc\technical\git\time-analytics\facebookfanpagesconnector_events.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>x:\dropbox\technology hatchery inc\technical\git\time-analytics\facebookfanpagesconnector_feeditems.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>x:\dropbox\technology hatchery inc\technical\git\time-analytics\facebookfanpagesconnector_page.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>x:\dropbox\technology hatchery inc\technical\git\time-analytics\facebookfanpagesconnector_person.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>x:\dropbox\technology hatchery inc\technical\git\time-analytics\facebookfanpagesconnector_photos.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>x:\dropbox\technology hatchery inc\technical\git\time-analytics\facebookfanpagesconnector_posts.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+   </Lineage>
+   <Comment></Comment>
+ </QvdTableHeader>
+ 1477807282452223 1477806522452299 1477805825785702 ﬂºö¯6g‰@jùˆ6g‰@º∞˙0g‰@†”˙0g‰@gP‰‚0g‰@"""‚0g‰@¬´ﬂ0g‰@å%øÿ0g‰@≥∏”0g‰@ı>ﬁ“0g‰@{o©0g‰@)QŒ†0g‰@Ì%¥ó0g‰@4ç0g‰@¡,ÓÑ0g‰@Í}|0g‰@&©÷n0g‰@ΩöxV0g‰@¡,ÓD0g‰@£Ü?0g‰@Ì0u90g‰@£{˛+0g‰@´î('0g‰@|Ûj"0g‰@E#0g‰@öôô0g‰@ d®Ï/g‰@/¨~Ê/g‰@œï‰/g‰@@≤Œ’/g‰@@Ωœ/g‰@[∞õ/g‰@§p= g‰@7–ig‰@Î\y g‰@˙∫—˝g‰@pHÀ¯g‰@å˛ˆg‰@®˜Òg‰@5¸Ìg‰@nïÂg‰@Ñï›g‰@Gæπg‰@Ç8ô§g‰@?ﬁ“úg‰@Uk◊òg‰@ÿÇ-òg‰@œäFÇg‰@   Äg‰@ÏF˜|g‰@å0Äzg‰@2_7zg‰@H÷yg‰@º•9xg‰@%’⁄ug‰@æyug‰@Pog‰@;L]ng‰@5/lg‰@Õ¡kg‰@ù6–ig‰@fqgg‰@i$‡[g‰@Ÿl´Tg‰@£ÜøMg‰@`,˘Eg‰@=òEg‰@R∏Eg‰@ÑV?g‰@◊£p=g‰@Í}<g‰@ç<g‰@pHÀ8g‰@å˛6g‰@K~1g‰@5¸-g‰@é„8g‰@÷ƒ≥‚g‰@^X˝Ãg‰@'ìT´g‰@´î(ßg‰@$Îúg‰@Âäúg‰@1j¯õg‰@íjÌög‰@öÉñg‰@ÄÖ‡êg‰@€*%äg‰@!Ceág‰@Î\yÄg‰@Ã‚Ng‰@ÆG!g‰@∞[0g‰@€5Ê+g‰@–tƒ~g‰@v£{~g‰@Så~g‰@
+◊£pg‰@}›Ë^g‰@2014-05-16T21:58:28+0000 2014-05-16T21:53:23+0000 2014-05-16T21:50:30+0000 <AúL˝e‰@2014-05-1621:58:28 4±/˝e‰@2014-05-1621:53:23 üÙI˝e‰@2014-05-1621:50:30 /£  2014-05-16 0ã;AúLÌ?21:58:28+0000 aı3±/Ì?21:53:23+0000 ıIüÙIÌ?21:50:30+0000 2014-05-16T21:58:28+0000 2014-05-16T21:53:23+0000 2014-05-16T21:50:30+0000 <AúL˝e‰@2014-05-1621:58:28 4±/˝e‰@2014-05-1621:53:23 üÙI˝e‰@2014-05-1621:50:30 /£  2014-05-16 0ã;AúLÌ?21:58:28+0000 aı3±/Ì?21:53:23+0000 ıIüÙIÌ?21:50:30+0000 Discovery Dashboards Community 1477805279119090  https://fbcdn-photos-a-a.akamaihd.net/hphotos-ak-xaf1/t1.0-0/10363943_1477807282452223_5929282008459199589_s.png https://fbcdn-photos-g-a.akamaihd.net/hphotos-ak-xpa1/t1.0-0/1622189_1477806522452299_7956730732771965101_s.png https://fbcdn-photos-e-a.akamaihd.net/hphotos-ak-xpa1/t1.0-0/10259848_1477805825785702_4754690658037243557_s.png https://scontent-a.xx.fbcdn.net/hphotos-xaf1/t1.0-9/10363943_1477807282452223_5929282008459199589_n.png https://scontent-a.xx.fbcdn.net/hphotos-xpa1/t1.0-9/1622189_1477806522452299_7956730732771965101_n.png https://scontent-a.xx.fbcdn.net/hphotos-xpa1/t1.0-9/10259848_1477805825785702_4754690658037243557_n.png T   84 ¬   194 https://www.facebook.com/photo.php?fbid=1477807282452223&set=a.1477805819119036.1073741825.1477805279119090&type=1 https://www.facebook.com/photo.php?fbid=1477806522452299&set=a.1477805819119036.1073741825.1477805279119090&type=1 https://www.facebook.com/photo.php?fbid=1477805825785702&set=a.1477805819119036.1073741825.1477805279119090&type=1 https://fbstatic-a.akamaihd.net/rsrc.php/v2/yz/r/StEh3RhPvjk.gif false     0 false     0    UU
+™™   UU
+™™   UU
+™™   UU
+™™   UU
+™™   UU
+™™   UU
+™™	   	UU	
+™™
+   
+UU
+
+™™   UU
+™™   UU
+™™   UU
+™™   UU
+™™   UU
+™™   UU
+™™   UU
+™™   UU
+™™   UU
+™™   UU
+™™   UU
+™™   UU
+™™   UU
+™™   UU
+™™   UU
+™™   UU
+™™   UU
+™™   UU
+™™   UU
+™™   UU
+™™   UU
+™™     UU 
+™™!   !UU!
+™™"   "UU"
+™™#   #UU#
+™™$   $UU$
+™™%   %UU%
+™™&   &UU&
+™™'   'UU'
+™™(   (UU(
+™™)   )UU)
+™™*   *UU*
+™™+   +UU+
+™™,   ,UU,
+™™-   -UU-
+™™.   .UU.
+™™/   /UU/
+™™0   0UU0
+™™1   1UU1
+™™2   2UU2
+™™3   3UU3
+™™4   4UU4
+™™5   5UU5
+™™6   6UU6
+™™7   7UU7
+™™8   8UU8
+™™9   9UU9
+™™:   :UU:
+™™;   ;UU;
+™™<   <UU<
+™™=   =UU=
+™™>   >UU>
+™™?   ?UU?
+™™@   @UU@
+™™A   AUUA
+™™B   BUUB
+™™C   CUUC
+™™D   DUUD
+™™E   EUUE
+™™F   FUUF
+™™G   GUUG
+™™H   HUUH
+™™I   IUUI
+™™J   JUUJ
+™™K   KUUK
+™™L   LUUL
+™™M   MUUM
+™™N   NUUN
+™™O   OUUO
+™™P   PUUP
+™™Q   QUUQ
+™™R   RUUR
+™™S   SUUS
+™™T   TUUT
+™™U   UUUU
+™™V   VUUV
+™™W   WUUW
+™™X   XUUX
+™™Y   YUUY
+™™Z   ZUUZ
+™™[   [UU[
+™™\   \UU\
+™™]   ]UU]
+™™^   ^UU^
+™™_   _UU_
+™™`   `UU`
+™™a   aUUa
+™™b   bUUb
+™™c   cUUc
+™™d   dUUd
+™™     UU 
+™™     UU 
+™™     UU 
+™™     UU 
+™™     UU 
+™™     UU 
+™™     UU 
+™™     UU 
+™™     UU 
+™™     UU 
+™™     UU 
+™™     UU 
+™™     UU 
+™™     UU 
+™™     UU 
+™™     UU 
+™™

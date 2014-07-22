@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ <QvdTableHeader>
+   <QvBuildNo>12235</QvBuildNo>
+   <CreatorDoc>X:\Dropbox\Technology Hatchery Inc\technical\Git\Time-Analytics\Time Analytics1.qvw</CreatorDoc>
+   <CreateUtcTime>2014-05-26 04:08:42</CreateUtcTime>
+   <SourceCreateUtcTime></SourceCreateUtcTime>
+   <SourceFileUtcTime></SourceFileUtcTime>
+   <SourceFileSize>-1</SourceFileSize>
+   <StaleUtcTime></StaleUtcTime>
+   <TableName>FacebookInsightsConnectorV2_page_impressions_unique</TableName>
+   <Fields>
+     <QvdFieldHeader>
+       <FieldName>page_impressions_unique_id</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>0</Offset>
+       <Length>55</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>page_impressions_uploaded_time</FieldName>
+       <BitOffset>28</BitOffset>
+       <BitWidth>2</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>TIMESTAMP</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt>M/D/YYYY h:mm:ss[.fff] TT</Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>3</NoOfSymbols>
+       <Offset>55</Offset>
+       <Length>27</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$timestamp</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>page_impressions_unique_name</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>82</Offset>
+       <Length>25</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>page_impressions_unique_title</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>107</Offset>
+       <Length>19</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>page_impressions_unique_period</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>126</Offset>
+       <Length>5</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>page_impressions_unique_end_time</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>8</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>25</NoOfSymbols>
+       <Offset>131</Offset>
+       <Length>650</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>page_impressions_unique_end_time_qvdatetime</FieldName>
+       <BitOffset>8</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>25</NoOfSymbols>
+       <Offset>781</Offset>
+       <Length>650</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>page_impressions_unique_end_time_qvdate</FieldName>
+       <BitOffset>13</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>25</NoOfSymbols>
+       <Offset>1431</Offset>
+       <Length>400</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+         <String>$timestamp</String>
+         <String>$date</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>page_impressions_unique_end_date_pacific</FieldName>
+       <BitOffset>18</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>25</NoOfSymbols>
+       <Offset>1831</Offset>
+       <Length>400</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+         <String>$timestamp</String>
+         <String>$date</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>page_impressions_unique_end_date_pacific_qvdate</FieldName>
+       <BitOffset>23</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>25</NoOfSymbols>
+       <Offset>2231</Offset>
+       <Length>400</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+         <String>$timestamp</String>
+         <String>$date</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>page_impressions_unique_sub_name</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>2631</Offset>
+       <Length>2</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>page_impressions_unique_value</FieldName>
+       <BitOffset>30</BitOffset>
+       <BitWidth>2</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>3</NoOfSymbols>
+       <Offset>2633</Offset>
+       <Length>21</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>page_impressions_unique_description</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>2654</Offset>
+       <Length>97</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+   </Fields>
+   <Compression></Compression>
+   <RecordByteSize>4</RecordByteSize>
+   <NoOfRecords>75</NoOfRecords>
+   <Offset>2751</Offset>
+   <Length>300</Length>
+   <Lineage>
+     <LineageInfo>
+       <Discriminator>STORE - FacebookFanPagesConnector_Events.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>STORE - FacebookFanPagesConnector_FeedItems.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>STORE - FacebookFanPagesConnector_Page.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>STORE - FacebookFanPagesConnector_Person.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>STORE - FacebookFanPagesConnector_Photos.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>STORE - FacebookFanPagesConnector_Posts.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>STORE - FacebookFanPagesConnector_Statuses.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>STORE - FacebookInsightsConnectorV2_page_impressions_unique.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>http://localhost:5555/qvsource/facebookfanpagesconnector/?table=events&amp;appid=&amp;facebookpageorid=discoverydashboards&amp;maxnumberofitems=-1&amp;format=html</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>http://localhost:5555/qvsource/facebookfanpagesconnector/?table=feeditems&amp;appid=&amp;facebookpageorid=discoverydashboards&amp;maxnumberofitems=-1&amp;format=html</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>http://localhost:5555/qvsource/facebookfanpagesconnector/?table=page&amp;appid=&amp;format=html</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>http://localhost:5555/qvsource/facebookfanpagesconnector/?table=person&amp;appid=</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>http://localhost:5555/qvsource/facebookfanpagesconnector/?table=photos&amp;appid=&amp;facebookpageorid=discoverydashboards&amp;maxnumberofitems=-1&amp;format=html</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>http://localhost:5555/qvsource/facebookfanpagesconnector/?table=posts&amp;appid=&amp;facebookpageorid=discoverydashboards&amp;maxnumberofitems=-1&amp;format=html</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>http://localhost:5555/qvsource/facebookfanpagesconnector/?table=statuses&amp;appid=&amp;facebookpageorid=discoverydashboards&amp;maxnumberofitems=-1&amp;format=html</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>http://localhost:5555/qvsource/facebookinsightsconnectorv2/?table=page_impressions_unique&amp;appid=&amp;pageid=discoverydashboards&amp;startdate=01-05-2014&amp;enddate=25-05-2014&amp;period=day</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>x:\dropbox\discovery dashboards\technical\data\time-analytics (transform)1.xml</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>x:\dropbox\technology hatchery inc\technical\git\time-analytics\facebookfanpagesconnector_events.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>x:\dropbox\technology hatchery inc\technical\git\time-analytics\facebookfanpagesconnector_feeditems.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>x:\dropbox\technology hatchery inc\technical\git\time-analytics\facebookfanpagesconnector_page.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>x:\dropbox\technology hatchery inc\technical\git\time-analytics\facebookfanpagesconnector_person.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>x:\dropbox\technology hatchery inc\technical\git\time-analytics\facebookfanpagesconnector_photos.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>x:\dropbox\technology hatchery inc\technical\git\time-analytics\facebookfanpagesconnector_posts.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>x:\dropbox\technology hatchery inc\technical\git\time-analytics\facebookfanpagesconnector_statuses.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>x:\dropbox\technology hatchery inc\technical\git\time-analytics\facebookinsightsconnectorv2_page_impressions_unique.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+   </Lineage>
+   <Comment></Comment>
+ </QvdTableHeader>
+ 1477805279119090/insights/page_impressions_unique/day K~1gä@5ü-gä@Žã8gä@page_impressions_unique Daily Total Reach day 2014-05-01T07:00:00+0000 2014-05-02T07:00:00+0000 2014-05-03T07:00:00+0000 2014-05-04T07:00:00+0000 2014-05-05T07:00:00+0000 2014-05-06T07:00:00+0000 2014-05-07T07:00:00+0000 2014-05-08T07:00:00+0000 2014-05-09T07:00:00+0000 2014-05-10T07:00:00+0000 2014-05-11T07:00:00+0000 2014-05-12T07:00:00+0000 2014-05-13T07:00:00+0000 2014-05-14T07:00:00+0000 2014-05-15T07:00:00+0000 2014-05-16T07:00:00+0000 2014-05-17T07:00:00+0000 2014-05-18T07:00:00+0000 2014-05-19T07:00:00+0000 2014-05-20T07:00:00+0000 2014-05-21T07:00:00+0000 2014-05-22T07:00:00+0000 2014-05-23T07:00:00+0000 2014-05-24T07:00:00+0000 2014-05-25T07:00:00+0000 2014-05-01T07:00:00+0000 2014-05-02T07:00:00+0000 2014-05-03T07:00:00+0000 2014-05-04T07:00:00+0000 2014-05-05T07:00:00+0000 2014-05-06T07:00:00+0000 2014-05-07T07:00:00+0000 2014-05-08T07:00:00+0000 2014-05-09T07:00:00+0000 2014-05-10T07:00:00+0000 2014-05-11T07:00:00+0000 2014-05-12T07:00:00+0000 2014-05-13T07:00:00+0000 2014-05-14T07:00:00+0000 2014-05-15T07:00:00+0000 2014-05-16T07:00:00+0000 2014-05-17T07:00:00+0000 2014-05-18T07:00:00+0000 2014-05-19T07:00:00+0000 2014-05-20T07:00:00+0000 2014-05-21T07:00:00+0000 2014-05-22T07:00:00+0000 2014-05-23T07:00:00+0000 2014-05-24T07:00:00+0000 2014-05-25T07:00:00+0000  £  2014-05-01 !£  2014-05-02 "£  2014-05-03 #£  2014-05-04 $£  2014-05-05 %£  2014-05-06 &£  2014-05-07 '£  2014-05-08 (£  2014-05-09 )£  2014-05-10 *£  2014-05-11 +£  2014-05-12 ,£  2014-05-13 -£  2014-05-14 .£  2014-05-15 /£  2014-05-16 0£  2014-05-17 1£  2014-05-18 2£  2014-05-19 3£  2014-05-20 4£  2014-05-21 5£  2014-05-22 6£  2014-05-23 7£  2014-05-24 8£  2014-05-25 £  2014-04-30  £  2014-05-01 !£  2014-05-02 "£  2014-05-03 #£  2014-05-04 $£  2014-05-05 %£  2014-05-06 &£  2014-05-07 '£  2014-05-08 (£  2014-05-09 )£  2014-05-10 *£  2014-05-11 +£  2014-05-12 ,£  2014-05-13 -£  2014-05-14 .£  2014-05-15 /£  2014-05-16 0£  2014-05-17 1£  2014-05-18 2£  2014-05-19 3£  2014-05-20 4£  2014-05-21 5£  2014-05-22 6£  2014-05-23 7£  2014-05-24 £  2014-04-30  £  2014-05-01 !£  2014-05-02 "£  2014-05-03 #£  2014-05-04 $£  2014-05-05 %£  2014-05-06 &£  2014-05-07 '£  2014-05-08 (£  2014-05-09 )£  2014-05-10 *£  2014-05-11 +£  2014-05-12 ,£  2014-05-13 -£  2014-05-14 .£  2014-05-15 /£  2014-05-16 0£  2014-05-17 1£  2014-05-18 2£  2014-05-19 3£  2014-05-20 4£  2014-05-21 5£  2014-05-22 6£  2014-05-23 7£  2014-05-24      0    4    1 Daily: The number of people who have seen any content associated with your Page. (Unique Users)     !„ BcŒ„¥”Æçœ!	)¥
+J)k­Œ1­µÎ9ï½BH1ÆˆRJ‰sÎ‰”R
+µÖ
+ÖZ÷Þc   !„BcŒ„¥”Æçœ!	)¥
+J)k­Œ1­µÎ9ï½BX1Æ˜RJ™sÎ™”RµÖÖZ÷Þc    !„ B!cŒ!„"¥”"Æ#çœ#!$	)¥$
+J)%k­%Œ1&­µ&Î9'ï½'Bh1Æ¨RJ©sÎ©”R*µÖ*ÖZ+÷Þ+c,

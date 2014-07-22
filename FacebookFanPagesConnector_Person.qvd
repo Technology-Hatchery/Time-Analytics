@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ <QvdTableHeader>
+   <QvBuildNo>12235</QvBuildNo>
+   <CreatorDoc>X:\Dropbox\Technology Hatchery Inc\technical\Git\Time-Analytics\Time Analytics1.qvw</CreatorDoc>
+   <CreateUtcTime>2014-05-27 00:13:42</CreateUtcTime>
+   <SourceCreateUtcTime></SourceCreateUtcTime>
+   <SourceFileUtcTime></SourceFileUtcTime>
+   <SourceFileSize>-1</SourceFileSize>
+   <StaleUtcTime></StaleUtcTime>
+   <TableName>FacebookFanPagesConnector_Person</TableName>
+   <Fields>
+     <QvdFieldHeader>
+       <FieldName>Person_response_status</FieldName>
+       <BitOffset>8</BitOffset>
+       <BitWidth>2</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>3</NoOfSymbols>
+       <Offset>0</Offset>
+       <Length>333</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Person_uploaded_time</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>8</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>TIMESTAMP</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt>M/D/YYYY h:mm:ss[.fff] TT</Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>100</NoOfSymbols>
+       <Offset>333</Offset>
+       <Length>900</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$timestamp</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Person_user_id</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>1233</Offset>
+       <Length>2</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Person_name</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>1235</Offset>
+       <Length>2</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Person_username</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>1237</Offset>
+       <Length>2</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Person_first_name</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>1239</Offset>
+       <Length>2</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Person_middle_name</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>1241</Offset>
+       <Length>2</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Person_last_name</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>1243</Offset>
+       <Length>2</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Person_gender</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>1245</Offset>
+       <Length>8</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Person_locale</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>1253</Offset>
+       <Length>2</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Person_link</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>1255</Offset>
+       <Length>2</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Person_age_range_min</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>1257</Offset>
+       <Length>2</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Person_age_range_max</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>1259</Offset>
+       <Length>2</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Person_timezone</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>1261</Offset>
+       <Length>2</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Person_updated_time</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>1263</Offset>
+       <Length>2</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Person_updated_time_qvdatetime</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>1265</Offset>
+       <Length>2</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Person_updated_time_qvdate</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>1267</Offset>
+       <Length>2</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Person_updated_time_qvtime</FieldName>
+       <BitOffset>10</BitOffset>
+       <BitWidth>6</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>0</NoOfSymbols>
+       <Offset>1269</Offset>
+       <Length>0</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Person_user_currency</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>1269</Offset>
+       <Length>2</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Person_picture_url</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>1271</Offset>
+       <Length>2</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Person_picture_is_silhouette</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>1273</Offset>
+       <Length>2</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Person_verified</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>1275</Offset>
+       <Length>2</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Person_third_party_id</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>1277</Offset>
+       <Length>2</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+   </Fields>
+   <Compression></Compression>
+   <RecordByteSize>2</RecordByteSize>
+   <NoOfRecords>116</NoOfRecords>
+   <Offset>1279</Offset>
+   <Length>232</Length>
+   <Lineage>
+     <LineageInfo>
+       <Discriminator>STORE - FacebookFanPagesConnector_FeedItems.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>STORE - FacebookFanPagesConnector_Page.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>STORE - FacebookFanPagesConnector_Person.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>STORE - FacebookFanPagesConnector_Posts.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>http://localhost:5555/qvsource/facebookfanpagesconnector/?table=feeditems&amp;appid=&amp;facebookpageorid=discoverydashboards&amp;maxnumberofitems=-1&amp;format=html</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>http://localhost:5555/qvsource/facebookfanpagesconnector/?table=page&amp;appid=&amp;format=html</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>http://localhost:5555/qvsource/facebookfanpagesconnector/?table=person&amp;appid=</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>http://localhost:5555/qvsource/facebookfanpagesconnector/?table=posts&amp;appid=&amp;facebookpageorid=discoverydashboards&amp;maxnumberofitems=-1&amp;format=html</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>x:\dropbox\discovery dashboards\technical\apis\square\output.xml</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>x:\dropbox\discovery dashboards\technical\data\time-analytics (transform)1.xml</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>x:\dropbox\technology hatchery inc\technical\git\time-analytics\facebookfanpagesconnector_feeditems.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>x:\dropbox\technology hatchery inc\technical\git\time-analytics\facebookfanpagesconnector_page.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>x:\dropbox\technology hatchery inc\technical\git\time-analytics\facebookfanpagesconnector_person.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>x:\dropbox\technology hatchery inc\technical\git\time-analytics\facebookfanpagesconnector_posts.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+   </Lineage>
+   <Comment></Comment>
+ </QvdTableHeader>
+ Object reference not set to an instance of an object. {"error":{"message":"Error validating access token: The session has been invalidated because the user has changed the password.","type":"OAuthException","code":190,"error_subcode":460}} {"error":{"message":"Unsupported get request.","type":"GraphMethodException","code":100}} ﬂºö¯6g‰@jùˆ6g‰@Tvò˙0g‰@H÷˘0g‰@÷ƒ≥‚0g‰@ëñÒ·0g‰@˘≈íﬂ0g‰@˚ôéÿ0g‰@:m†”0g‰@,˘≈“0g‰@—0g‰@Èì>©0g‰@a∂†0g‰@$‡õó0g‰@£Üøç0g‰@/°ΩÑ0g‰@8§e|0g‰@ï¶n0g‰@,HV0g‰@¯Ê’D0g‰@ÑV?0g‰@[•D90g‰@Õ+0g‰@„N'0g‰@≥≠R"0g‰@}›Ë0g‰@i0g‰@WêÏ/g‰@fffÊ/g‰@PÔ„/g‰@xl∂’/g‰@á¥åœ/g‰@íjÌö/g‰@€*% g‰@näQg‰@Z—H g‰@1uπ˝g‰@®≥¯g‰@ƒ‘Âˆg‰@:bﬂÒg‰@á©ÀÌg‰@‹	‚‰g‰@ÛÄd›g‰@µvçπg‰@∫ÚÄ§g‰@ÆR¢úg‰@å%øòg‰@G˜¸óg‰@E.Çg‰@otœg‰@#ﬂ|g‰@√Ígzg‰@†”zg‰@~º•yg‰@Ù_!xg‰@\è¬ug‰@:xaug‰@Äzog‰@sEng‰@£{˛kg‰@<6€jg‰@‘∑ig‰@= Ygg‰@†ﬁ«[g‰@'ìTg‰@˚éMg‰@Œ†»Eg‰@tœEg‰@ârEg‰@ª—=?g‰@F@=g‰@8§e<g‰@MGÏ;g‰@ﬂºö8g‰@ƒ‘Â6g‰@áøM1g‰@á©À-g‰@∆ù g‰@E9É‚g‰@ÕÃÃÃg‰@ñ$´g‰@¿7Ø¶g‰@vò∫úg‰@TÅYúg‰@i$‡õg‰@ﬂºög‰@	¯Êïg‰@Ô˘Øêg‰@JüÙâg‰@ê∑4ág‰@#aÄg‰@y@≤Ng‰@Lh/!g‰@z*0g‰@J™µ+g‰@/¨~g‰@ÂK~g‰@ãF~g‰@yKspg‰@¥ó–^g‰@      NotSet                	
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcde                
